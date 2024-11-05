@@ -52,3 +52,17 @@ const sr = ScrollReveal({
         duration: 2000,
         reset: true,
     })
+
+srLeft.reveal(".about-info", { delay: 100});
+    srLeft.reveal(".contact-info", { delay: 100});
+
+    const srRight = ScrollReveal({
+        origin: "right",
+        distance: "80px",
+        duration: 2000,
+        reset: true,
+    })
+
+    srRight.reveal(".skill", { delay: 100});
+    srRight.reveal(".skill-box", { delay: 100});
+
