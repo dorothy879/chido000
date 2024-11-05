@@ -7,3 +7,22 @@ function myMenuFunction() {
         menuBth.className = "nav-menu";
     }
 }
+
+const body = document.querySelector("body"),
+    toggleSwitch = document.getElementById("toggle-switch");
+
+    toggleSwitch.addEventListener("click", ()=> {
+        body.classList.toggle("dark");
+    });
+
+
+
+    var typingEffect = new Typed(".typedText", {
+        strings: ["Designer", "Coder", "Developer"],
+
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 2000,
+
+    })
